@@ -1,0 +1,62 @@
+body {
+    background-color: #1e605a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    margin:0;
+    padding:0;
+}
+h1 {
+    margin:0;
+    padding:0;
+} */
+div {
+    width: 200px;
+    height: 200px;
+}
+.box1 {
+    background-color: black;
+    color: white;
+    /* margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px; */
+    /* margin: 80px; */
+
+    /* padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px; */
+
+    /* padding: 40px;
+    
+    border: 10px solid white;
+    border-top: 20px solid rgb(79, 235, 22);
+    border-bottom: 20px solid rgb(79, 235, 22); */
+}
+
+/* How to calculate dimensions on an element */
+/* Width: border  left  + border  right + padding left + padding right + content width 
+/* Height: border  top  + border  bottom + padding top + padding bottom + content height  */
+
+/* width =  10 + 10 + 40 + 40 + 200 = 300 px */
+/* height =  20 + 20 + 40 + 40 + 200 = 320 px */
+
+.box1 {
+    width:300px;
+    border:20px solid white;
+    padding:30px;
+  
+}
+
+.box2 {
+    background-color: orange;
+}
+
+
+

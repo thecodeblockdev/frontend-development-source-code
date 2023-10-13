@@ -1,0 +1,36 @@
+body {
+    background-color: #1e605a;
+}
+
+h1 {
+    background-color: orange;
+    /* display:inline; */
+    /* width: 900px; */
+    /* height: 200px; */
+}
+
+a {
+    background-color:white;
+    /* display: inline-block; */
+    /* width: 600px;
+    height: 200px; */
+    /* inline element do not respect width and height */
+    padding: 100px;
+    margin: 40px;
+    /* margin is only applied from left and right not from top and bottom */
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border:5px solid black;
+    display:none;
+}
+
+/* Note for you with love from @codeblockdev do subscribe :) */
+/* inline- no width, no height */
+/* block- respects width, and height */
+/* inline-block = an inline element that also respects width and height */
+/* none = hides the element from the web page it is there in markup though */

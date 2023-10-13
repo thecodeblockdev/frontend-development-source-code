@@ -1,0 +1,41 @@
+/* Global CSS for mobile screen */
+body {
+    background-color: rgb(124, 124, 206);
+}
+@media screen and (min-width: 400px) {
+    /* These styles will be applied if
+    the screen width is minimum 400px wide and above */
+    body {
+        background-color: orangered;
+    }
+    .header__subtitle {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* These styles will be applied till
+    the screen width is maximum 800px wide for 801px not valid */
+    .header__subtitle {
+        text-decoration: underline;
+        color: white;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    /* These styles will be applied till
+    the screen width is maximum 800px wide for 801px not valid */
+    body {
+        background-color: green;
+    }
+    .header__subtitle {
+        display: none;
+    }
+}
+/* 500px to 800px */
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    body {
+        background-color: black;
+    }
+}

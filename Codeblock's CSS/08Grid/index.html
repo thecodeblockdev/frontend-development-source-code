@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Grid</title>
+        <style>
+            .el--1 {
+                background-color: blueviolet;
+            }
+            .el--2 {
+                background-color: orangered;
+            }
+            .el--3 {
+                background-color: green;
+                height: 150px;
+            }
+            .el--4 {
+                background-color: goldenrod;
+            }
+            .el--5 {
+                background-color: palevioletred;
+            }
+            .el--6 {
+                background-color: steelblue;
+            }
+            .el--7 {
+                background-color: yellow;
+            }
+            .el--8 {
+                background-color: crimson;
+            }
+
+            .container--1 {
+                /* Default code */
+                font-family: sans-serif;
+                background-color: #ddd;
+                font-size: 26px;
+                margin: 40px;
+                border: 5px solid black;
+                /* height: 600px; */
+
+                /* CSS GRID */
+                display: grid;
+                /* grid-template-columns: 200px 200px 200px 1fr; */
+                grid-template-rows: 200px 300px;
+                /* grid-template-columns: 1fr 1fr 1fr auto; */
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: 1fr 1fr;
+
+                gap: 30px;
+                /* column-gap: 40px;
+                row-gap: 10px; */
+                display: none;
+            }
+            .el--7 {
+                /* grid-column: 2 / 3;
+                grid-row: 1 / 2; */
+            }
+
+            .el--3 {
+                /* grid-column: 2 / -1 */
+                /* grid-column: 2 / span 2; */
+                /* grid-column: 2 / span 2;
+                grid-row: 2 / span 2; */
+            }
+            /* .el--2 {
+                grid-row: 1/3;
+            } */
+
+            .container--2 {
+                /* Default code */
+                /* display: none; */
+                font-family: sans-serif;
+                background-color: black;
+                font-size: 40px;
+                margin: 100px;
+
+                width: 700px;
+                height: 500px;
+                border: 5px solid black;
+
+                /* CSS GRID */
+                display: grid;
+                grid-template-columns: 150px 125px 200px;
+                grid-template-rows: 200px 200px;
+
+                gap: 20px;
+                /* Alining tracks inside the container */
+                /* justify-content: stretch;
+                align-content: stretch; */
+                /* justify-content: start;
+                align-content: end; */
+
+                /* Aligning items inside the cells (Moving items around inside cells) */
+                align-items: center;
+                justify-items: center;
+            }
+            .el--3 {
+                align-self: end;
+                justify-self: end;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container--1">
+            <div class="el el--1">(1) HTML</div>
+            <div class="el el--2">(2) and</div>
+            <div class="el el--3">(3) CSS</div>
+            <div class="el el--4">(4) are</div>
+            <div class="el el--5">(5) fun</div>
+            <div class="el el--6">(6) with</div>
+            <div class="el el--7">(7) CodeBlock</div>
+            <div class="el el--8">(8) Subscribe</div>
+        </div>
+
+        <!-- For more grid terms -->
+        <div class="container--2">
+            <div class="el el--1">(1)</div>
+            <div class="el el--3">(3)</div>
+            <div class="el el--4">(4)</div>
+            <div class="el el--5">(5)</div>
+            <div class="el el--6">(6)</div>
+            <div class="el el--7">(7)</div>
+        </div>
+    </body>
+</html>

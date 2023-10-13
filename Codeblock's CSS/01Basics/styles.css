@@ -1,0 +1,134 @@
+/* h1 {
+    text-align:right;
+} */
+
+/* body {
+    background-color: #1e605a;
+} */
+
+/* SELECTORS */
+
+/* * {
+    border:10px solid black;
+    margin:10px;
+} */
+
+/* .main-heading, .main-para { 
+    text-align:left;
+    font-size: 30px;
+    background-color:orange;
+}
+.secondary-heading{
+    text-align: right;
+    font-size: 30px;
+    background-color:orange;
+}
+#main-link {
+    color:rgb(221, 16, 50);
+} */
+
+/* .main-section a {
+    color:white;
+    font-size:30px;
+} */
+
+/* .main-section > a {
+    color:white;
+    font-size:30px;
+    background-color:orange;
+} */
+
+/* section ~ p {
+    color:white;
+    font-size:30px;
+} */
+
+/* a {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 30px;
+} */
+
+/* a:hover {
+    background-color: rebeccapurple;
+}
+a:active {
+    background-color: green;
+}
+li:nth-of-type(8) {
+    background-color: white;
+}
+
+h1::after {
+    content: " Enjoy";
+    color: white;
+}
+h1::before {
+    content: " Before ";
+    color: white;
+}
+h1::first-letter {
+    color: purple;
+}
+h1::first-line {
+    color: red;
+}
+h1::selection {
+    background-color: orange;
+}
+
+a[href="#"] {
+    color: red;
+}
+
+h1[class="heading"] { 
+    color:pink;
+    font-size:100px;
+} */
+
+/* h1 {
+    color:yellow;
+} */
+
+/* h1 {
+    color:green;
+} */
+
+/* h1 {
+    color:white;
+} */
+
+/* h1 {
+    color:red;
+} */
+
+/* 10 */
+.branding {
+    background-color: blue;
+    /* font-size:100px; */
+}
+/* 100 */
+#branding {
+    background-color: red;
+}
+
+/* 1 */
+/* button { 
+    background-color: rgb(217, 15, 146) !important;
+} */
+
+/* elements - 1
+    class - 10
+    id - 100
+    inline - 1000
+    !important - 10,000
+
+*/
+
+/* * {
+    background-color:blue;
+}
+html {
+    background-color:white;
+} */

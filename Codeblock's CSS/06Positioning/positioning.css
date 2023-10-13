@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    border: 20px solid rgb(64, 41, 101);
+}
+body {
+    background-color: #0f1010;
+    border: 20px solid red;
+    opacity: 0.6;
+    height: 2000px;
+    position: relative;
+}
+.div {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Static(the default appearance of an element in static) */
+/* relative */
+/* absolute */
+/* sticky */
+/* fixed */
+/* use of z-index */
+
+nav a {
+    font-size: 2rem;
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: -15px;
+}
+.fixed {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.box1 {
+    background-color: blueviolet;
+    /* position: static; */
+    /* margin-top: 100px; */
+    /* position: relative; */
+    /* top: 100px; */
+    /* left: 200px;
+    bottom: 100px; */
+    /* left: -100px; */
+    /* top: 0; */
+
+    position: absolute;
+    /* HTML as it's parent and align itself accroding to it
+    (will move inside it's parent only if the parent has a position of other than satic applied to it)
+    */
+    /* left: 200px; */
+    /* top: 0;
+    left: 0; */
+    /* left: 0;
+    bottom: 0; */
+    z-index: 4;
+}
+
+.box2 {
+    background-color: orange;
+    position: relative;
+    z-index: 3;
+}
+.box3 {
+    background-color: purple;
+}

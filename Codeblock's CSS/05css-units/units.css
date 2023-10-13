@@ -1,0 +1,51 @@
+body {
+    background-color: #1e605a;
+}
+/* % */
+
+/* .parent {
+   background-color: orange;
+   width:600px;
+   height:300px;
+} */
+
+/* .child {
+    background-color: purple;
+    width:50%;
+    height: 100%
+} */
+/* Percentage is relative to it's parent */
+
+/* ====== em rem vw vh ====== */
+
+html {
+    font-size: 10px;
+}
+.container {
+    width:900px;
+}
+.header {
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size:3.2rem;
+}
+
+/* .header {
+    font-size: 20px;
+}
+
+p {
+    font-size:1em;
+}
+
+.section-testimonial {
+    font-size: 30px;
+} */
